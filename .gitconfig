@@ -3,3 +3,7 @@
 	email = anton.serdyuk@gmail.com
 [alias]
 	graph = log --graph --decorate --all
+[core]
+	editor = vim
+[color]
+	ui = true
