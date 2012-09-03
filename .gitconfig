@@ -1,0 +1,5 @@
+[user]
+	name = Anton Serdyuk
+	email = anton.serdyuk@gmail.com
+[alias]
+	graph = log --graph --decorate --all
