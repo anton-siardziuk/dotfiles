@@ -2,8 +2,15 @@
 	name = Anton Serdyuk
 	email = anton.serdyuk@gmail.com
 [alias]
+        st = status
+        cm = commit
+        br = branch
+        co = checkout
+        df = diff
+        lg = log -p
 	graph = log --graph --decorate --all
 [core]
 	editor = vim
+        excludesfile = ~/.gitignore_global
 [color]
 	ui = true
