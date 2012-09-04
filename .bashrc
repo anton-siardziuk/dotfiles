@@ -159,9 +159,9 @@ function prompt_command {
         # build git status for prompt
         if [ ! -z $GIT_BRANCH ]; then
             if [ -z $GIT_DIRTY ]; then
-                PS1_GIT=" (git: ${color_green}${GIT_BRANCH}${color_off})"
+                PS1_GIT=" (${color_green}${GIT_BRANCH}${color_off})"
             else
-                PS1_GIT=" (git: ${color_red}${GIT_BRANCH}${color_off})"
+                PS1_GIT=" (${color_red}${GIT_BRANCH}${color_off})"
             fi
         fi
     fi
