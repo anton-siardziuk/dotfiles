@@ -8,7 +8,7 @@
         co = checkout
         df = diff
         lg = log -p
-	graph = log --graph --decorate --all
+	graph = log --graph --decorate --all --pretty=format:\"%C(yellow)%t %C(cyan)%ai %Cgreen%aN %C(white)%s\"
 [core]
 	editor = vim
         excludesfile = ~/.gitignore_global
