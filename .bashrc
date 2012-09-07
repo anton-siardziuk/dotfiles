@@ -100,6 +100,8 @@ fi
 
 source /etc/bash_completion.d/git
 
+PATH="$PATH:~/bin"
+
 # setup color variables
 color_is_on=
 color_red=
