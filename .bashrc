@@ -99,6 +99,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 source /etc/bash_completion.d/git
+source ~/app/phabricator/arcanist/resources/shell/bash-completion
 
 PATH="$PATH:~/bin"
 
