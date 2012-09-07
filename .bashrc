@@ -128,14 +128,16 @@ function prompt_command {
     local PWDNAME=$PWD
 
     # get cursor position and add new line if we're not in first column
-    exec < /dev/tty
-    local OLDSTTY=$(stty -g)
-    stty raw -echo min 0
-    echo -en "\033[6n" > /dev/tty && read -sdR CURPOS
-    stty $OLDSTTY
+    echo -en "\033[6n" && read -sdR CURPOS
     [[ ${CURPOS##*;} -gt 1 ]] && echo "${color_error}.${color_error_off}"
 
-   # beautify working firectory name
+    # set title
+    echo -ne "\033]0;${USER}@${LOCAL_HOSTNAME}:${PWDNAME}"; echo -ne "\007"
+
+    # set escape sequence for screen to determine window title
+    echo -n -e "\033k\033\\"
+
+    # beautify working firectory name
     if [ $HOME == $PWD ]; then
         PWDNAME="~"
     elif [ $HOME ==  ${PWD:0:${#HOME}} ]; then
