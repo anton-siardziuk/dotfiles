@@ -1,4 +1,5 @@
 defscrollback 10000
 startup_message off
 autodetach on
+shelltitle '$ |bash'
 caption always "%{wk} %?%-Lw%?%{kw}%n*%f %t%?(%u)%?%{wk}%?%+Lw%?"
