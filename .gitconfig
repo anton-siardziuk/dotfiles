@@ -15,3 +15,7 @@
         excludesfile = ~/.gitignore_global
 [color]
 	ui = true
+[color "status"]
+	added = green bold
+	changed = red bold
+	untracked = red bold
