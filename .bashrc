@@ -129,9 +129,6 @@ function prompt_command {
     # set title
     echo -ne "\033]0;${USER}@${LOCAL_HOSTNAME}:${PWDNAME}"; echo -ne "\007"
 
-    # set escape sequence for screen to determine window title
-    echo -n -e "\033k\033\\"
-
     # beautify working firectory name
     if [ $HOME == $PWD ]; then
         PWDNAME="~"
