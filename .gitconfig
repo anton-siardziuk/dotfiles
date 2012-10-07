@@ -19,3 +19,6 @@
 	added = green bold
 	changed = red bold
 	untracked = red bold
+[color "diff"]
+	old = red bold
+	new = green bold
