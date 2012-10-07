@@ -115,6 +115,8 @@ color_yellow="\033[1;33m"
 color_green="\033[1;32m"
 color_white="\033[1;37m"
 color_off="\033[m"
+color_error="$(/usr/bin/tput setab 1)$(/usr/bin/tput setaf 7)"
+color_error_off="$(/usr/bin/tput sgr0)"
 
 function prompt_command {
     local PS1_GIT=
