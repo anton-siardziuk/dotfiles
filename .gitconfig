@@ -22,3 +22,5 @@
 [color "diff"]
 	old = red bold
 	new = green bold
+[push]
+	default = current
