@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'Shougo/neocomplcache.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'altercation/vim-colors-solarized'
 call vundle#end()
 filetype plugin indent on
 
@@ -14,7 +15,10 @@ syntax on
 set cursorline
 set number
 
-colorscheme mustango
+let g:solarized_termtrans=1
+let g:solarized_termcolors=256
+colorscheme solarized
+set background=dark
 
 let g:acp_enableAtStartup = 0
 let g:neocomplcache_enable_at_startup = 1
