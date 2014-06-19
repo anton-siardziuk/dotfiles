@@ -16,7 +16,7 @@ set cursorline
 set number
 
 let g:solarized_termtrans=1
-let g:solarized_termcolors=256
+let g:solarized_termcolors=16
 colorscheme solarized
 set background=dark
 
