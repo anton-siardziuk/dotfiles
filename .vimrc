@@ -31,7 +31,7 @@ let g:neocomplcache_fuzzy_completion_start_length = 1
 
 " Edit the vimrc file
 nmap <silent> ,ev :e $MYVIMRC<CR>
-nmap <silent> ,sv :so $MYVIMRC<CR>
+nmap <silent> ,sv :s $MYVIMRC<CR>
 
 "-----------------------------------------------------------------------------
 "" NERD Tree Plugin Settings
@@ -44,3 +44,8 @@ nmap <S-F7> :NERDTreeClose<CR>
 
 " Show the bookmarks table on startup
 let NERDTreeShowBookmarks=1
+
+"-----------------------------------------------------------------------------
+"" vim-go plugin settings
+"-----------------------------------------------------------------------------
+au FileType go nmap gd <Plug>(go-def)
