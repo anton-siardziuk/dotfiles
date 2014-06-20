@@ -45,3 +45,6 @@ nmap <S-F7> :NERDTreeClose<CR>
 
 " Show the bookmarks table on startup
 let NERDTreeShowBookmarks=1
+
+" Tab size for go language should be 8
+autocmd FileType go setlocal tabstop=8
