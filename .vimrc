@@ -29,9 +29,16 @@ let g:neocomplcache_force_omni_patterns.go = '.'
 let g:neocomplcache_enable_fuzzy_completion = 1
 let g:neocomplcache_fuzzy_completion_start_length = 1
 
+"-----------------------------------------------------------------------------
+"" Custom shortcuts
+"-----------------------------------------------------------------------------
 " Edit the vimrc file
-nmap <silent> ,ev :e $MYVIMRC<CR>
-nmap <silent> ,sv :s $MYVIMRC<CR>
+nmap <silent> ,ev :edit $MYVIMRC<CR>
+nmap <silent> ,sv :source $MYVIMRC<CR>
+" Go Back
+nmap <silent> gb :buffer#<CR>`"
+" Quick save
+nmap <silent> ,w :write<CR>
 
 "-----------------------------------------------------------------------------
 "" NERD Tree Plugin Settings
