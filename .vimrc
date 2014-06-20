@@ -52,6 +52,9 @@ nmap <S-F7> :NERDTreeClose<CR>
 " Show the bookmarks table on startup
 let NERDTreeShowBookmarks=1
 
+" Change CWD when change NERDTree root
+let NERDTreeChDirMode=2
+
 "-----------------------------------------------------------------------------
 "" vim-go plugin settings
 "-----------------------------------------------------------------------------
