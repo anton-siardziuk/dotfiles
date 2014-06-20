@@ -1,13 +1,12 @@
 set nocompatible
 filetype off
 
-set rtp+=/usr/local/go/misc/vim
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'nsf/gocode', {'rtp': 'vim/'}
-Plugin 'Shougo/neocomplcache.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'fatih/vim-go'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 filetype plugin indent on
 
@@ -45,6 +44,3 @@ nmap <S-F7> :NERDTreeClose<CR>
 
 " Show the bookmarks table on startup
 let NERDTreeShowBookmarks=1
-
-" Tab size for go language should be 8
-autocmd FileType go setlocal tabstop=8
