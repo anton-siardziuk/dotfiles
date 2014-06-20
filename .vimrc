@@ -30,6 +30,10 @@ let g:neocomplcache_force_omni_patterns.go = '.'
 let g:neocomplcache_enable_fuzzy_completion = 1
 let g:neocomplcache_fuzzy_completion_start_length = 1
 
+" Edit the vimrc file
+nmap <silent> ,ev :e $MYVIMRC<CR>
+nmap <silent> ,sv :so $MYVIMRC<CR>
+
 "-----------------------------------------------------------------------------
 "" NERD Tree Plugin Settings
 "-----------------------------------------------------------------------------
