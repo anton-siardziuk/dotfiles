@@ -29,6 +29,9 @@ let g:neocomplcache_force_omni_patterns.go = '.'
 let g:neocomplcache_enable_fuzzy_completion = 1
 let g:neocomplcache_fuzzy_completion_start_length = 1
 
+" I want to hide buffer when go to another file instead of unloading it
+set hidden
+
 "-----------------------------------------------------------------------------
 "" Custom shortcuts
 "-----------------------------------------------------------------------------
