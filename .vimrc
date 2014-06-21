@@ -39,6 +39,11 @@ nmap <silent> ,sv :source $MYVIMRC<CR>
 nmap <silent> gb :buffer#<CR>`"
 " Quick save
 nmap <silent> ,w :write<CR>
+" Simple go to window shortcuts
+nmap <silent> gh <C-w>h
+nmap <silent> gj <C-w>j
+nmap <silent> gk <C-w>k
+nmap <silent> gl <C-w>l
 
 "-----------------------------------------------------------------------------
 "" NERD Tree Plugin Settings
