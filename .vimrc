@@ -39,7 +39,9 @@ set hidden
 nmap <silent> ,ev :edit $MYVIMRC<CR>
 nmap <silent> ,sv :source $MYVIMRC<CR>
 " Go Back
-nmap <silent> gb :buffer#<CR>`"
+nmap <silent> gb <C-o>
+" Go forward
+nmap <silent> gf <C-i>
 " Quick save
 nmap <silent> ,w :write<CR>
 " Simple go to window shortcuts
