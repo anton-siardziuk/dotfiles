@@ -50,7 +50,7 @@ plugins=(git)
 # User configuration
 
 export GOPATH=/Users/m00t/workspace/go
-export PATH="/usr/local/sbin:/usr/local/opt/php54/bin:/usr/local/bin:/Users/m00t/.composer/bin:/Users/m00t/workspace/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin"
+export PATH="/usr/local/sbin:/usr/local/opt/php56/bin:/usr/local/bin:/Users/m00t/.composer/bin:/Users/m00t/workspace/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
