@@ -67,3 +67,14 @@ let NERDTreeChDirMode=2
 "" vim-go plugin settings
 "-----------------------------------------------------------------------------
 au FileType go nmap gd <Plug>(go-def)
+
+
+"-----------------------------------------------------------------------------
+"" Haskell
+"----------------------------------------------------------------------------
+au FileType Haskell set tabstop=8
+au FileType Haskell set expandtab
+au FileType Haskell set softtabstop=4
+au FileType Haskell set shiftwidth=4
+au FileType Haskell set shiftround
+au FileType Haskell set autoindent
