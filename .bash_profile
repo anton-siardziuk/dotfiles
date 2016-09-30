@@ -1,6 +1,5 @@
-export PATH=/usr/local/bin:/Users/m00t/.composer/bin:$PATH
+#
+# ~/.bash_profile
+#
 
-export PATH=/usr/local/sbin:$PATH
-
-export LC_ALL=en_US.utf-8
-export LANG="$LC_ALL"
+[[ -f ~/.bashrc ]] && . ~/.bashrc
