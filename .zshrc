@@ -54,6 +54,8 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sb
 
 source $ZSH/oh-my-zsh.sh
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 export LC_ALL=en_US.utf-8
 export LANG="$LC_ALL"
 
